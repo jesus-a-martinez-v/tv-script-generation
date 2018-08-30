@@ -60,13 +60,13 @@ def test_create_lookup_tables(create_lookup_tables):
                 int_to_vocab_word_id_set - vocab_to_int_word_id_set)
 
         # Make sure the dicts make the same lookup
-        missmatches = [(word, id, id, int_to_vocab[id]) for word, id in vocab_to_int.items() if
-                       int_to_vocab[id] != word]
+        mismatches = [(word, identifier, identifier, int_to_vocab[identifier]) for word, identifier in vocab_to_int.items() if
+                      int_to_vocab[identifier] != word]
 
-        assert not missmatches, \
+        assert not mismatches, \
             'Found {} missmatche(s). First missmatch: vocab_to_int[{}] = {} and int_to_vocab[{}] = {}'.format(
-                len(missmatches),
-                *missmatches[0])
+                len(mismatches),
+                *mismatches[0])
 
         assert len(vocab_to_int) > len(set(test_text)) / 2, \
             'The length of vocab seems too small.  Found a length of {}'.format(len(vocab_to_int))
