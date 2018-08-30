@@ -1,5 +1,1 @@
-# tv-script-generation
-Recurrent Neural Network used to generate data from The Simpsons scripts.
-
-
-Work in progress ;)
+<!DOCTYPE html><html lang="en" style="height:100%;width:100%"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="FloydHub is a zero setup Deep Learning platform for productive data science teams."><meta name="google-site-verification" content="ZkYgTr4uoN52h5RThSYRS8gyE44hWHqW3SANFoPeFuU"/><meta name="msvalidate.01" content="BE713A5FDCF7E3D9D17F5985ED5866A1"/><link rel="canonical" href="https://www.floydhub.com/"><script src="https://cdn.ravenjs.com/3.16.1/raven.min.js" crossorigin="anonymous"></script><script src="https://js.stripe.com/v3/"></script><script src="https://www.paypalobjects.com/api/checkout.js" data-version-4></script><title>FloydHub - Deep Learning Platform - Cloud GPU</title><link href="/static/css/main.54de9132.css" rel="stylesheet"></head><body style="height:100%"><div id="app" style="height:100%;width:100%"></div><script type="text/javascript" src="/static/js/main.e2ba76c8.js"></script></body></html>
