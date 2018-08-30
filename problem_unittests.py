@@ -156,9 +156,9 @@ def test_get_inputs(get_inputs):
             'Input has bad name.  Found name {}'.format(input_data.name)
 
         # Check rank
-        input_rank = 0 if input_data.get_shape() is None else len(input_data.get_shape())
-        targets_rank = 0 if targets.get_shape() is None else len(targets.get_shape())
-        lr_rank = 0 if lr.get_shape() is None else len(lr.get_shape())
+        input_rank = 0 if input_data.get_shape().dims is None else len(input_data.get_shape())
+        targets_rank = 0 if targets.get_shape().dims is None else len(targets.get_shape())
+        lr_rank = 0 if lr.get_shape().dims is None else len(lr.get_shape())
 
         assert input_rank == 2, \
             'Input has wrong rank.  Rank {} found.'.format(input_rank)
